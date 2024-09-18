@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -130,11 +131,11 @@ li:hover {
 
 .presentation-container p {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: normal;
-    color: white;
+    color: #fff;
 }
 
 .presentation-container button {
@@ -236,4 +237,140 @@ li:hover {
     border-top: 3px solid #fff;
 }
 
+.company-container {
+    width: 100%;
+    height: 140vh;
+    background-color: #37488E;
+}
 
+.about-container {
+    width: 100%;
+    height: 100%;
+    display: flex; 
+}
+
+.about-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.about-text {
+   width: 70%;
+   height: 40%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   row-gap: 30px;
+   padding: 0 10px;
+   margin-bottom: 50px; 
+   background-color: #fff;
+   border-radius: 10%;
+}
+
+.about-title {
+    width: 100%;
+}
+
+.about-title h1 {
+    font-size: 2.5rem;
+    color: #1E3585;
+}
+
+.about-text span {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-text p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #37488E;
+}
+
+.woaman-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+.contadora-img{
+    position: relative;
+    margin-left: 70px;
+    height: 50%;
+    width: 85%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.mission-container {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background-color: #fff;
+    padding: 0 100px;
+    text-align: center;
+}
+
+.items-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100%;
+    gap: 20px;
+}
+
+.mission-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 2px;
+    margin-top: 30px; /* Adiciona espaçamento superior */
+    gap: 20px;
+}
+
+.mission-row i {
+    color: #1E3585;
+    font-size: 3rem;
+}
+
+#mission-item {
+    background-color: #CFD6E6;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+
+}
+
+#vision-item {
+    background-color: #CFD6E6;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#values-item {
+    background-color: #CFD6E6;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+
+.items-container h5 {
+    color: #cdba6d;
+    font-size: 2rem;
+}
+
+.card-text {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
