@@ -17,11 +17,11 @@
 
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Nossa Empresa</li>
-                <li>Nossos Profissionais</li>
-                <li>Serviços</li>
-                <li>Contato</li>
+                <li><a href="#home" class="actived js-link">Home</a></li>
+                <li><a href="#empresa" class="js-link">Nossa Empresa</a></li>
+                <li><a href="#profissionais" class="js-link">Profissionais</a></li>
+                <li><a href="#servicos" class="js-link">Serviços</a></li>
+                <li><a href="#contatos" class="js-link">Contato</a></li>
             </ul>
         </nav>
         <i class="fa-solid fa-bars" id="menu-icon"></i>
@@ -30,12 +30,12 @@
 
     <div class="modal"> </div>
 
-    <div class="home-container"> 
+    <div class="home-container modulos" id="home"> 
         <div class="presentation-container">
             <h3>Uma nova maneira de pensar Contabilidade</h3>
             <h1>Bem vindo a nossa <span>Mindset Contabilidade Digital</span> em Arcoverde, Buique e Região</h1>
             <p> <strong> Sua melhor opção de contabilidade do Agreste ao Sertão Pernambucano </strong> </p>
-            <button>Leia mais</button>
+            <button><a href="#empresa">Leia mais</a></button>
         </div>
     </div>
 
@@ -68,19 +68,17 @@
                     Nossas Profissionais são preparadas para dar tranquilidade para vocÊ ou seu negócio
                 </p>
             </div>
-
         </div>
     </div>
     <section class="company-container">
         <div class="about-container">
             <div class="about-content">
-
                 <div class="about-text">
-                    <div class="about-title">
+                    <section class="about-title section" id="empresa">
                         <h1>
                             <strong> NOSSA EMPRESA </strong> 
                         </h1>
-                    </div>
+                    </section>
                 <span>
                     Cooperando com várias pessoas e empresas em Arcoverde e Buique fornecendo serviços de contabilidade com qualidade, ética e confiança
                 </span>
@@ -136,7 +134,7 @@
             </div>
         </div>
     </section>
-    <section class="professional-container">
+    <section class="professional-container section" id="profissionais">
             <h5> 
             <strong>Nossas Profissionais</strong>
             </h5>
@@ -168,7 +166,7 @@
      
         </div>
     </section>
-    <section class="services-container">
+    <section class="services-container section" id="servicos">
         <div class="services-title">
             <h2><strong>Nossos Serviços</strong></h2>  
             <h1><strong>Áreas de Atuação</strong></h1>
@@ -269,7 +267,7 @@
 
     </section>
 
-    <section class="contacts">
+    <section class="contacts section" id="contatos">
         <h1> <strong>Contatos</strong></h1>  
         
         <div class="contacts-container">
