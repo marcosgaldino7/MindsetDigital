@@ -1602,9 +1602,10 @@ footer {
         font-weight: 500;
     }
   
-    .destaks-content {  
-        padding-top: 150px;
-    }
+   
+   .destaks-container {
+        top: 850px;
+   }
 
     #square-1 i {
         padding-top: 20px;
@@ -1640,7 +1641,9 @@ footer {
     }
     
     .company-container {
-        padding-top: 80px;
+        
+        justify-content: end;
+        padding-bottom: 10px;
     
     }
   
