@@ -1228,21 +1228,21 @@ footer {
     }
 
     .home-container{
-        height: 120vh;
+        height: 960px;
         background-position: 70% 50%;
         align-items: start;
         gap: 1px
     }
 
     .modal {
-        height: 120vh;
+        height: 960px;
     }
 
 
     .company-container {
         width: 90%;
-        height: 180vh;
-        padding-top: 70vh;
+        height: 1440px;
+        padding-top: 560px;
 
     }
 
@@ -1254,7 +1254,7 @@ footer {
 
     
     .destaks-container {
-        top: 110vh; 
+        top: 900px; 
         padding:  0 40px 0 40px;
         width: 100%;
         height: auto;
@@ -1328,7 +1328,7 @@ footer {
         width: 90%;
         padding: 0 0px;
         border-radius: 50px;
-        height: 400vh;
+        height: 900px;
     }
 
     .about-text {    
@@ -1376,7 +1376,7 @@ footer {
     .team h4 {
         font-size: 1.5rem;
         letter-spacing: 1.5px;
-        margin-bottom: 10px; 
+        margin-bottom: 30px; 
         margin-top: 30px;
     }
 
@@ -1403,8 +1403,8 @@ footer {
     }   
 
     .professional-container{
-        height: 150vh;
-        top: 50vh;
+        height: 1000px;
+        top: 400px;
     }
 
     .professional-container h5 {
@@ -1415,7 +1415,7 @@ footer {
     }
 
     .professional-content {
-        padding-top:  0px;
+        padding-top:  300px;
     }
 
 
@@ -1451,8 +1451,8 @@ footer {
     */
 
     .services-container {
-        margin-top: 200px;
-        height: 250vh;
+        margin-top: 400px;
+        height: 1600px;
         width: 100%;
     }
 
@@ -1521,7 +1521,7 @@ footer {
         }
 
     .professional-container{
-        height: 160vh;
+        height: 1200px;
         font-size: 1.6rem;
     }
     
@@ -1542,7 +1542,7 @@ footer {
     
     .services-container {
         margin-top: 150px;
-        height: 140vh;
+        height: 1200px;
     }
     
     .services-content {
@@ -1553,7 +1553,7 @@ footer {
     }
 
     .services-container {
-        height: 140vh;
+        height: 1200px;
     }
     
     .services-content {
@@ -1740,7 +1740,7 @@ footer {
 
     .branche-maps{
 
-        height: 100vh;
+        height: 700px;
         padding-top: 20px;
         
     }
