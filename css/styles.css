@@ -1513,12 +1513,16 @@ footer {
 
 @media (max-width: 768px){
 
-        .destaks-content {
-            /*
-            display: flex;
-            flex-direction: column;
-        */
-        }
+    .company-container {
+        
+        justify-content: end;
+        padding-bottom: 10px;
+        
+    }
+
+    .about-container {
+        justify-content: end;
+    }
 
     .professional-container{
         height: 1200px;
