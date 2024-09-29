@@ -1644,7 +1644,15 @@ footer {
         
         justify-content: end;
         padding-bottom: 10px;
-    
+        
+    }
+
+    .about-container {
+        justify-content: end;
+    }
+
+    .about-content {
+        height: 1100px;
     }
   
    .about-title h1 {
@@ -1796,6 +1804,20 @@ footer {
         font-size: 1.5rem;
         font-weight: 600;
     }
+
+    .about-content {
+        height: 1500px;
+    }
+
+    .about-title h1 {
+        font-size: 1.8rem;
+      }
+    
+      .about-text p {
+        font-weight: 900;
+        font-size: 0.9rem;
+      }
+  
     
     .services-title h1 {
         font-size: 2.7rem;
