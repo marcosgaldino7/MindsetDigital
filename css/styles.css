@@ -1513,16 +1513,6 @@ footer {
 
 @media (max-width: 768px){
 
-    .company-container {
-        
-        justify-content: end;
-        padding-bottom: 10px;
-        
-    }
-
-    .about-container {
-        justify-content: end;
-    }
 
     .professional-container{
         height: 1200px;
@@ -1591,7 +1581,6 @@ footer {
     }
 
     .presentation-container {
-        
         row-gap: 50px;
         padding-top: 20px;
     }
@@ -1608,8 +1597,33 @@ footer {
   
    
    .destaks-container {
-        top: 850px;
+    background-color: #fff;
+    display: none;
    }
+
+   .company-container {
+        
+
+        padding: 0;
+        height: auto;
+    
+   }
+
+   
+
+   .about-content {
+    justify-content:flex-start;
+    height: auto;
+   }
+
+   .about-text {
+    height: 500px;
+   }
+
+
+   
+
+   
 
     #square-1 i {
         padding-top: 20px;
@@ -1626,15 +1640,6 @@ footer {
         font-size: 2rem;
     }
 
-    .destaks-span {
-        font-size: 1rem;
-    }
-
-    .destaks-paragraph{
-        font-size: 0.8rem;
-        padding-bottom: 20px;
-
-    }
 
     #calculator-icon {
         font-size: 3rem;
@@ -1644,20 +1649,6 @@ footer {
         padding: 20px;
     }
     
-    .company-container {
-        
-        justify-content: end;
-        padding-bottom: 10px;
-        
-    }
-
-    .about-container {
-        justify-content: end;
-    }
-
-    .about-content {
-        height: 1100px;
-    }
   
    .about-title h1 {
       font-size: 2.5rem;
