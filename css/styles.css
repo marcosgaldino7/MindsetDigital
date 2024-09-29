@@ -1513,6 +1513,33 @@ footer {
 
 @media (max-width: 768px){
 
+    
+   .destaks-container {
+    background-color: #fff;
+    display: none;
+   }
+
+   .company-container {
+        
+
+        padding: 0;
+        height: auto;
+    
+   }
+
+   
+
+   .about-content {
+    justify-content:flex-start;
+    height: auto;
+   }
+
+   .about-text {
+    height: 500px;
+   }
+
+
+   
 
     .professional-container{
         height: 1200px;
@@ -1595,33 +1622,6 @@ footer {
         font-weight: 500;
     }
   
-   
-   .destaks-container {
-    background-color: #fff;
-    display: none;
-   }
-
-   .company-container {
-        
-
-        padding: 0;
-        height: auto;
-    
-   }
-
-   
-
-   .about-content {
-    justify-content:flex-start;
-    height: auto;
-   }
-
-   .about-text {
-    height: 500px;
-   }
-
-
-   
 
    
 
