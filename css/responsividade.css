@@ -708,9 +708,10 @@
         justify-content: center;
         align-items: center;
         width: 90%;
-        padding: 0 0px;
+        padding: 0;
         height: auto;
         border-radius: 50px;
+        margin: 0;
 
     }
 
@@ -723,23 +724,25 @@
         display: flex;
         width: 100%;
         border-radius: 50px;
-        height: 2000px;
-        margin-top: 10px;
+        height: auto;
+        margin-top: 0;
     }
 
     .about-title h1 {
+        padding-top: 20px;
         font-size: 2.8rem;
     }
 
     .about-text p {
         font-weight: 800;
-        font-size: 1.rem;
+        font-size: 1.3rem;
+        padding-bottom: 60px;
     }
  
 
     .about-text span {
         font-weight: 600;
-        font-size: 1.4rem;   
+        font-size: 1.5rem;   
     }
 
     .mission-container {
@@ -912,6 +915,21 @@
 
 @media (max-width: 768px){
 
+    .about-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-text p {
+
+        font-size: 1.1rem;
+
+    }
+ 
+
+    .about-text span {
+
+        font-size: 1.2rem;   
+    }
 
     .professional-container{
         font-size: 1.6rem;
@@ -1217,28 +1235,10 @@
         height: 750px;
     }
 
-    .presentation-container {
-        padding: 0;
-        height: auto;
-        
-    }
-
-    .presentation-container h3 {
-        letter-spacing: 1px;
-        font-size: 0.8rem;
-    }
-
-    .presentation-container h1 {
-        font-size: 1.9rem;
-    }
-    
-    .presentation-container p {
-        font-size: 1.6rem;
-
-    }
 
     .contadoras {
-        flex-direction: column-reverse;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
@@ -1255,29 +1255,26 @@
     }
 
     .contadoras-img {
-        padding-left: 0px;
+        display: none;
     }
 
-    .contadoras-img img {
-        width: 90%;
-        height: auto;
-        object-fit: contain;
-        max-height: 300px;
-    }
-    
     .team h4 {
         padding-top: 2px;
-        font-size: 1.2rem;
-        letter-spacing: 1px;
+        font-size: 1.5rem;
+        letter-spacing: 0px;
     }
 
     .team p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
-    .services-container {
-        height: auto;
+    .services-content {
+
+
+        grid-template-columns: repeat(1, 1fr);   
+
     }
+
 
     footer {
         height: auto;
@@ -1311,7 +1308,6 @@
 
     .presentation-container {
         width: 100%;
-        height: 60%;
     }
 
     .presentation-container h3 {
@@ -1356,23 +1352,7 @@
       font-size: 1.1rem;   
     }
 
-    .mission-container {
-        
-        margin-bottom:500px;
-    }
 
-    .services-container {
-        height: 2000px;
-        margin-top: 700px;
-    }    
-
-    .services-content {
-        display: flex;
-        flex-direction: column;
-        padding: 0 20px;
-        margin-top: 00px;
-        gap: 80px;
-    }
 
     .services-divider {
         width: 60%;
@@ -1397,11 +1377,6 @@
         font-weight: 900;
     }
 
-    .items-container{
-            
-        height: auto;
-        padding-bottom: 120px;
-    }
 
     .team h4 {
         font-size: 1.1rem;
