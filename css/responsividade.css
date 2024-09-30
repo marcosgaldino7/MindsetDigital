@@ -121,6 +121,11 @@
         height: 150vh;
         padding-bottom: 1px;
     }
+
+    footer img {
+        width: 100px;
+        height: auto;
+    } 
   
   }
 
