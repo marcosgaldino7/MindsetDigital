@@ -15,18 +15,24 @@
     }
     .presentation-container {
       
-        row-gap: 30px;
-        padding: 20px;
+        row-gap: 20px;
+
     }
 
-    .presentation-container h3 {
-        letter-spacing: 3.5px;
-    }
-    
     .presentation-container h1 {
-        font-size: 3rem;
+        font-size: 4.5rem;
     }
     
+    .presentation-container h3 {
+        letter-spacing: 7px;
+        font-size: 0.9rem;
+    }
+    
+    .presentation-container p {
+        font-size: 1.2rem;
+    }
+
+ 
 
     .content {
         padding: 0 80px;
@@ -92,11 +98,10 @@
 
     .professional-container{
         height: 600px;
-    }
-
-    .professional-container {
         gap: 50px;
     }
+
+  
 
     .services-container {
         gap: 50px;
@@ -150,32 +155,24 @@
 
     
     .presentation-container {
-        row-gap: 80px;
-        padding: 20px;
+        
+        row-gap: 15px;
+        width: 60%;
+
+
+    }
+
+    .presentation-container h1 {
+        font-size: 4.1rem;
     }
     
-    
     .presentation-container h3 {
-        letter-spacing: 0px;
+        letter-spacing: 5px;
         font-size: 0.9rem;
     }
     
-    .presentation-container h1 {
-        font-size: 2.5rem;
-    }
-    
     .presentation-container p {
-        font-size: 1.5rem;
-        font-weight: 800;
-    }
-    /*
-    .presentation-container {
-        row-gap: 8px;
-        padding: 8px;
-    }
-    */
-    .presentation-container h3 {
-        letter-spacing: 2px;
+        font-size: 1.2rem;
     }
 
    
@@ -259,20 +256,6 @@
     }
     
    
-
-    .professional-container {
-        gap: 30px;
-    }
-
-    
-    .professional-container h5 {
-        font-size: 2.2rem;
-    }
-    
-    .professional-content {
-        padding-top: 10px;
-        
-    }
     
     
     .team img {
@@ -338,26 +321,24 @@
         height: 130vh;
    }
 
-    .presentation-container {
-        row-gap: 40px;
-        padding:  0 30px;
+   .presentation-container {
+        row-gap: 15px;
         width: 70%;
     }
 
-    .presentation-container h3 {
-        letter-spacing: 2px;
-        font-size: 1.5rem;
+    .presentation-container h1 {
+        font-size: 4.1rem;
     }
 
-    .presentation-container h1 {
-        font-size: 2.8rem;
+    .presentation-container h3 {
+        letter-spacing: 5px;
+        font-size: 0.9rem;
+    }
+
+    .presentation-container p {
+        font-size: 1.2rem;
     }
     
-    .presentation-container p {
-        font-size: 2.2rem;
-        font-weight: 600;
-    }
-
     .destaks-container {
         top: 900px;
     }
@@ -581,7 +562,7 @@
     .home-container{
 
         position: relative;
-        height: 600px;
+        height: 800px;
         background-position: center;
         background-size: cover;
         overflow: hidden;
@@ -597,7 +578,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(0, 0, 0, 0.7); /* Transparência */
+        background-color: rgba(0, 0, 0, 0.8); /* Transparência */
         z-index: 1; /* Fica acima da imagem de fundo */
     }
     
@@ -613,21 +594,21 @@
     }
 
     .presentation-container {
-        padding: 0 5px;
-    }
-
-    .presentation-container h3 {
-        letter-spacing: 3px;
-        font-size: 1rem;
+        row-gap: 12px;
+        width: 75%;
     }
 
     .presentation-container h1 {
-        font-size: 2rem;
+        font-size: 3.8rem;
     }
-    
+
+    .presentation-container h3 {
+        letter-spacing: 4px;
+        font-size: 0.9rem;
+    }
+
     .presentation-container p {
-        font-size: 1.6rem;
-        font-weight: 600;
+        font-size: 1.1rem;
     }
 
    
@@ -937,7 +918,24 @@
 
 @media (max-width: 768px){
 
-     
+    .presentation-container {
+        row-gap: 20px;
+        width: 80%;
+
+    }
+
+    .presentation-container h1 {
+        font-size: 3.4rem;
+    }
+
+    .presentation-container h3 {
+        letter-spacing: 3px;
+        font-size: 0.9rem;
+    }
+
+    .presentation-container p {
+        font-size: 1rem;
+    }
 
     .about-title h1 {
         font-size: 2.5rem;
@@ -1018,21 +1016,22 @@
 
 
     .presentation-container {
-        padding: 0 3px;
-    }
+        row-gap: 20px;
+        width: 80%;
 
-    .presentation-container h3 {
-        letter-spacing: 1px;
-        font-size: 0.8rem;
     }
 
     .presentation-container h1 {
-        font-size: 1.9rem;
+        font-size: 2.8rem;
     }
-    
-    .presentation-container p {
-        font-size: 1.5rem;
 
+    .presentation-container h3 {
+        letter-spacing: 2px;
+        font-size: 0.7rem;
+    }
+
+    .presentation-container p {
+        font-size: 0.9rem;
     }
 
 
@@ -1177,26 +1176,25 @@
     }
 
     .presentation-container {
-        padding: 0 2px;
-    }
+        row-gap: 15px;
+        width: 80%;
 
-    .presentation-container h3 {
-        letter-spacing: 1px;
-        font-size: 0.8rem;
     }
 
     .presentation-container h1 {
-        font-size: 1.8rem;
+        font-size: 2.8rem;
     }
-    
-    .presentation-container p {
-        font-size: 1.4rem;
 
+    .presentation-container h3 {
+        letter-spacing: 2px;
+        font-size: 0.7rem;
+    }
+
+    .presentation-container p {
+        font-size: 0.9rem;
     }
 
    
-
-
 
     .about-title h1 {
         font-size: 1.8rem;
@@ -1252,6 +1250,25 @@
         height: 750px;
     }
 
+    .presentation-container {
+        row-gap: 20px;
+        width: 90%;
+
+    }
+
+    .presentation-container h1 {
+        font-size: 2.8rem;
+    }
+
+    .presentation-container h3 {
+        letter-spacing: 2px;
+        font-size: 0.7rem;
+    }
+
+    .presentation-container p {
+        font-size: 0.9rem;
+    }
+
     .contadoras {
 
         display: flex;
@@ -1264,35 +1281,7 @@
 
     .contadoras-txt {
         padding-top: 20px;
-        padding-right: 2px;
-        text-align: center;
     }
-
-    /* excluir posteriomente */
-    .company-container {
-        margin: 0;
-        height: auto;
-    }
-
-    .about-container {
-        height: auto;
-        margin: 0;
-        padding-top: 0;
-    }
-
-    .about-content {
-        padding-top: 0;
-        padding: 0;
-        margin: 0;
-        height: auto;
-    }
-
-    .about-text {
-        margin: 0;
-        padding: 0;
-        height: auto;
-    }
-    /* fim da exclusão */
 
 
 
@@ -1356,18 +1345,22 @@
     }
 
     .presentation-container {
+        row-gap: 20px;
         width: 100%;
-    }
 
-    .presentation-container h3 {
-        text-align: center;
-        font-size: 0.9rem;
-        letter-spacing: 0px;
-        
     }
 
     .presentation-container h1 {
-        font-size: 2.2rem;
+        font-size: 2.8rem;
+    }
+
+    .presentation-container h3 {
+        letter-spacing: 2px;
+        font-size: 0.7rem;
+    }
+
+    .presentation-container p {
+        font-size: 0.9rem;
     }
 
     .destaks-span {
@@ -1438,24 +1431,22 @@
     }
 
     .presentation-container {
+        row-gap: 20px;
         width: 100%;
-        height: 60%;
-    }
 
-    .presentation-container h3 {
-        text-align: center;
-        font-size: 0.8rem;
-        letter-spacing: 0px;
-        padding-top: 5px;
-        
     }
 
     .presentation-container h1 {
-        font-size: 1.8rem;
+        font-size: 2.4rem;
+    }
+
+    .presentation-container h3 {
+        letter-spacing: 2px;
+        font-size: 0.6rem;
     }
 
     .presentation-container p {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
 
