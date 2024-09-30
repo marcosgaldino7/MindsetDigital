@@ -450,7 +450,7 @@
    
 
     .professional-container {
-        height: 750px;
+        height: auto;
         gap: 10px;
     }
 
@@ -486,7 +486,7 @@
     .services-container {
         gap: 20px;
         padding-bottom: 0px;
-        height: 1400px
+        height: auto;
     }
 
     
@@ -711,8 +711,6 @@
         padding: 0 0px;
         height: auto;
         border-radius: 50px;
-        height: 600px;
-        
 
     }
 
@@ -754,7 +752,7 @@
 
     .professional-container {
         height: auto;
-        margin-bottom: 40px;
+        margin-bottom: 0;
     }
 
     .team {
@@ -766,6 +764,10 @@
         gap: 50px;
     }
 
+    .contadoras:first-child { 
+        margin-top: 20px; 
+      }
+
     .team img {
         margin-left: 20px;
     }
@@ -774,7 +776,7 @@
 
         border-radius: 25px;
         font-size: 1.6rem;
-        padding: 0 5px 130px 5px;
+        padding: 0 5px 5px 5px;
     }
 
     .contadoras {
@@ -782,8 +784,8 @@
         margin-left: 10px;
         width: 100%;
         background-color: rgba(207, 214, 230, 0.5);
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding: 0;
+        height: auto;
 
     }
 
@@ -792,10 +794,13 @@
     }
 
     .contadoras-txt {
-        padding-top: 80px;
+        padding-top: 10px;
         text-align: left; 
         align-items: center;
         padding-right: 2px;
+        padding-bottom: 20px;
+        margin-right: 10px;
+    
     }
 
     .contadoras-img {
@@ -808,6 +813,7 @@
         width: 60%;
         height: auto;
         object-fit: contain;
+        max-height: 300px;
     }
     
     .team h4 {
@@ -838,17 +844,24 @@
 
  
     .services-container {
-        margin-top: 400px;
-        height: 1600px;
+        margin-top: 30em;
+        height: auto;
         width: 100%;
+        gap: 40px;
     }
 
     .services-content {
 
-        padding: 0 120px;
+        padding: 20px;
         margin-top: 30px;
         grid-template-columns: repeat(2, 1fr);   
- 
+        margin-bottom: 10px;
+        grid-column-gap: 20px;
+    }
+
+    .services-square {
+        width: auto;
+        height: auto;
     }
 
     .service-title {
@@ -901,10 +914,14 @@
 
 
     .professional-container{
-        height: 1200px;
         font-size: 1.6rem;
+        margin-bottom: 0;
     }
-    
+
+    .professional-content {
+        margin-top: 90px;
+    }
+
     .team h4 {
         font-size: 1.3rem;
         letter-spacing: 1.3px;
@@ -921,8 +938,7 @@
     
     
     .services-container {
-        margin-top: 150px;
-        height: 1200px;
+        margin-top: 350px;
     }
     
     .services-content {
@@ -932,9 +948,7 @@
 
     }
 
-    .services-container {
-        height: 1200px;
-    }
+  
     
     .services-content {
     
@@ -957,103 +971,93 @@
 }
 
 @media (max-width: 600px){
+    
     .home-container{
-        height: 900px;
+        height: 700px;
 
     }
 
-    .modal {
-        height: 900px;
-    }
 
     .presentation-container {
-        row-gap: 50px;
-        padding-top: 20px;
+        padding: 0 3px;
     }
 
-   
+    .presentation-container h3 {
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+    }
+
     .presentation-container h1 {
-        font-size: 2.5rem;
+        font-size: 1.9rem;
     }
     
     .presentation-container p {
-        font-size: 1.8rem;
-        font-weight: 500;
+        font-size: 1.5rem;
+
     }
+
   
-   
 
-    #square-1 i {
-        padding-top: 20px;
-        font-size: 2rem;
-    }
-    
-    #square-2 i {
-        padding-top:20px;
-        font-size: 2rem;
-    }
-
-    #square-3 i {
-        padding-top:15px;
-        font-size: 2rem;
-    }
-
-
-    #calculator-icon {
-        font-size: 3rem;
-    }
-
-    #square-3 {
-        padding: 20px;
-    }
-    
-  
    .about-title h1 {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
   
     .about-text p {
       font-weight: 900;
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
   
   
     .about-text span {
       font-weight: 800;
-      font-size: 1.3rem;   
+      font-size: 1.1rem;   
     }
   
-    .dividerteam {
-      display: none;
-    }
 
     .card-text {
-    font-size: 1.1rem;
-    font-weight: 700; 
+        font-size: 1.1rem;
+        font-weight: 700; 
     }
 
     .items-container{
-        height: auto;
-        padding-bottom: 50px;
+
+        padding-bottom: 0px;
+    
     }
+
+    .contadoras-txt {
+        padding-top: 40px;
+        padding-right: 2px;
+    }
+
+
+
+    .contadoras-img img {
+        width: 70%;
+        height: auto;
+        object-fit: contain;
+    }
+    
+    .team h4 {
+        padding-top: 2px;
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+
+    .team p {
+        font-size: 0.8rem;
+    }
+
 
     .mission-container {
-        
 
-        margin-bottom:250px;
+
+        margin-bottom:30px;
     }
-
-    .professional-container {
-
-        height: auto;
-        margin-top: 0;
-        padding-bottom: 80px;
-    }
-
 
     .services-container {
-        margin-top: 500px;
-        height: 1300px;
+        margin-top: 300px;
+        height: auto;
     }
     
     .services-content {
@@ -1135,42 +1139,37 @@
     }
 
     .presentation-container {
-        
-        row-gap: 30px;
-        padding-top: 50px;
+        padding: 0 2px;
     }
 
     .presentation-container h3 {
-        letter-spacing: 0.8px;
-        font-size: 0.9rem;
-    
+        letter-spacing: 1px;
+        font-size: 0.8rem;
     }
-    
+
     .presentation-container h1 {
-        font-size: 1.9rem;
+        font-size: 1.8rem;
     }
     
     .presentation-container p {
-        font-size: 1.5rem;
-        font-weight: 600;
+        font-size: 1.4rem;
+
     }
 
-    .about-content {
-        height: 1500px;
-    }
+
 
     .about-title h1 {
         font-size: 1.8rem;
-      }
+    }
     
-      .about-text p {
+    .about-text p {
         font-weight: 900;
         font-size: 0.9rem;
-      }
+    }
       
     .services-container {
-        margin-top: 900px;
-        height: 1300px;
+        margin-top: 250px;
+
     } 
     
     .services-title h1 {
@@ -1200,10 +1199,7 @@
         
     }
 
-    .services-container {
-        margin-top: 550px;
-        height: 1300px;
-    }
+ 
     
 }
 
@@ -1217,85 +1213,74 @@
         width: 150px; 
     }
 
-    .card-text {
-        
-        font-size: 1.1rem;
-        font-weight: 800; 
+    .home-container{
+        height: 750px;
     }
-    
-    .items-container{
-            
+
+    .presentation-container {
+        padding: 0;
         height: auto;
-        padding-bottom: 70px;
-    }
-    
-    .mission-container {
         
-        margin-bottom:400px;
-    }
-    
-    .professional-container {
-        padding-top: 10px;
-        margin-top: 0;
-        padding-bottom: 80px;
     }
 
-    .services-container {
-        margin-top: 140px;
-    }
-
-    .mission-icon {
-        font-size: 1.2rem;
-    }
-
-    .team h4 {
-        font-size: 1.3rem;
+    .presentation-container h3 {
         letter-spacing: 1px;
-        margin-bottom: 6px; 
-        margin-top: 15px;
-    }
-    
-    .team p {
-        
         font-size: 0.8rem;
-        font-weight: 800;
+    }
+
+    .presentation-container h1 {
+        font-size: 1.9rem;
+    }
+    
+    .presentation-container p {
+        font-size: 1.6rem;
 
     }
 
-
-    .services-title h1 {
-        font-size: 2.4rem;
+    .contadoras {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: auto;
     }
-    .services-title h2 {
+
+    .contadoras-txt {
+        padding-top: 20px;
+        padding-right: 2px;
+    }
+
+    .contadoras-txt p {
+        margin: 0; 
+    }
+
+    .contadoras-img {
+        padding-left: 0px;
+    }
+
+    .contadoras-img img {
+        width: 90%;
+        height: auto;
+        object-fit: contain;
+        max-height: 300px;
+    }
+    
+    .team h4 {
+        padding-top: 2px;
         font-size: 1.2rem;
+        letter-spacing: 1px;
     }
 
-    .services-content {
-    
-        padding: 0 30px;
-        margin-top: 20px;
-
-    }
-    
-    .service-title {
-        font-weight: 900;
-        font-size: 1.1rem;
-        margin-bottom: 25px;
-    }
-    
-    
-    .services-description {
-        font-size: 0.7rem;
-        font-weight: 900;
+    .team p {
+        font-size: 0.8rem;
     }
 
     .services-container {
-        margin-top: 540px;
-        height: 1300px;
+        height: auto;
     }
 
     footer {
-        height: 130px;
+        height: auto;
     }
     footer p {
         font-size: 0.9rem;
