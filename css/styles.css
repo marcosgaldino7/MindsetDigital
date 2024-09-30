@@ -664,6 +664,10 @@ footer {
     color: #fff;
 }
 
+footer img {
+    width: 100px;
+}
+
 .whats {
     position: fixed;
     bottom: 20px;

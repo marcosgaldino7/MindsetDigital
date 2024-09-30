@@ -481,6 +481,12 @@
         font-weight: 850;
         font-size: 0.8rem;      
     }
+
+    .services-square {
+        width: auto;
+        height: auto;
+    }
+
     
 
     .services-container {
@@ -687,10 +693,13 @@
     
     }
 
+
     .company-container {
+
         position: relative;
         width: 100%;
         height: auto;
+        margin: 0;
 
     }
 
@@ -699,7 +708,9 @@
         flex-direction: column;
         align-items: center;
         padding-bottom: 20px;
-        height: 500px;
+        height: auto;
+        margin: 0;
+        padding-top: 0;
     }
 
     .about-content {
@@ -713,6 +724,12 @@
         border-radius: 50px;
         margin: 0;
 
+    }
+
+    .about-text {
+        margin: 0;
+        padding: 0;
+        height: auto;
     }
 
     .woaman-container {
@@ -758,6 +775,11 @@
         margin-bottom: 0;
     }
 
+    .professional-content {
+        height: auto;
+        padding: 0;
+    }
+
     .team {
         display: flex;
         flex-direction: column;
@@ -767,9 +789,6 @@
         gap: 50px;
     }
 
-    .contadoras:first-child { 
-        margin-top: 20px; 
-      }
 
     .team img {
         margin-left: 20px;
@@ -792,18 +811,21 @@
 
     }
 
+    
+
     .contadoras-img, .contadoras-txt {
         width: 50%; 
     }
 
     .contadoras-txt {
-        padding-top: 10px;
+        padding-top: 5px;
         text-align: left; 
-        align-items: center;
         padding-right: 2px;
         padding-bottom: 20px;
         margin-right: 10px;
-    
+        font-size: 1.5rem;
+        letter-spacing: 1.5px;
+            
     }
 
     .contadoras-img {
@@ -819,12 +841,7 @@
         max-height: 300px;
     }
     
-    .team h4 {
-        font-size: 1.5rem;
-        letter-spacing: 1.5px;
-    }
-
-    .team p {
+    .contadoras-txt {
         font-size: 1rem;
     }
 
@@ -847,7 +864,7 @@
 
  
     .services-container {
-        margin-top: 30em;
+        margin-top: 20px;
         height: auto;
         width: 100%;
         gap: 40px;
@@ -915,6 +932,8 @@
 
 @media (max-width: 768px){
 
+     
+
     .about-title h1 {
         font-size: 2.5rem;
     }
@@ -936,18 +955,15 @@
         margin-bottom: 0;
     }
 
-    .professional-content {
-        margin-top: 90px;
-    }
 
-    .team h4 {
+    .contadoras-txt h4 {
         font-size: 1.3rem;
         letter-spacing: 1.3px;
         margin-bottom: 8px; 
         margin-top: 20px;
     }
     
-    .team p {
+    .contadoras-txt p {
         font-size: 1rem;
         margin-top: 15px; 
         font-weight: 600;
@@ -956,7 +972,7 @@
     
     
     .services-container {
-        margin-top: 350px;
+        margin-top: 20px;
     }
     
     .services-content {
@@ -1014,7 +1030,6 @@
 
     }
 
-  
 
    .about-title h1 {
       font-size: 2rem;
@@ -1056,13 +1071,13 @@
         object-fit: contain;
     }
     
-    .team h4 {
+    .contadoras-txt h4 {
         padding-top: 2px;
         font-size: 1.2rem;
         letter-spacing: 1px;
     }
 
-    .team p {
+    .contadoras-txt p {
         font-size: 0.8rem;
     }
 
@@ -1074,7 +1089,7 @@
     }
 
     .services-container {
-        margin-top: 300px;
+        margin-top: 10px;
         height: auto;
     }
     
@@ -1174,6 +1189,8 @@
 
     }
 
+   
+
 
 
     .about-title h1 {
@@ -1185,11 +1202,6 @@
         font-size: 0.9rem;
     }
       
-    .services-container {
-        margin-top: 250px;
-
-    } 
-    
     .services-title h1 {
         font-size: 2.7rem;
     }
@@ -1235,37 +1247,69 @@
         height: 750px;
     }
 
-
     .contadoras {
+
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
         text-align: center;
-        height: auto;
+
     }
 
     .contadoras-txt {
         padding-top: 20px;
         padding-right: 2px;
+        text-align: center;
     }
 
-    .contadoras-txt p {
-        margin: 0; 
+    /* excluir posteriomente */
+    .company-container {
+        margin: 0;
+        height: auto;
     }
 
-    .contadoras-img {
-        display: none;
+    .about-container {
+        height: auto;
+        margin: 0;
+        padding-top: 0;
     }
 
-    .team h4 {
-        padding-top: 2px;
-        font-size: 1.5rem;
+    .about-content {
+        padding-top: 0;
+        padding: 0;
+        margin: 0;
+        height: auto;
+    }
+
+    .about-text {
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+    /* fim da exclusão */
+
+
+
+    .contadoras-txt h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 2rem;
         letter-spacing: 0px;
     }
 
-    .team p {
-        font-size: 0.7rem;
+    .contadoras-txt p {
+        font-size: 1rem;
+    }
+
+    .contadoras-img {
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .contadoras-img img {
+        width: 100%;
+        max-height: 400px;
     }
 
     .services-content {
@@ -1330,14 +1374,9 @@
         padding-bottom: 20px;
 
     }
-
-    .company-container {
-        padding-top: 120px;
     
-    }
-  
    .about-title h1 {
-      padding-top: 5px;  
+      padding-top: 40px;  
       font-size: 2.3rem;
     }
   
@@ -1352,7 +1391,10 @@
       font-size: 1.1rem;   
     }
 
-
+    .contadoras-img img {
+        width: 80%;
+        max-height: 400px;
+    }
 
     .services-divider {
         width: 60%;
@@ -1378,19 +1420,6 @@
     }
 
 
-    .team h4 {
-        font-size: 1.1rem;
-        letter-spacing: 0.8px;
-        margin-bottom: 10px; 
-        margin-top:20px;
-    }
-    
-    .team p {
-        
-        font-size: 0.7rem;
-        font-weight: 900;
-
-    }
 
 }
 
@@ -1424,36 +1453,6 @@
         font-size: 1rem;
     }
 
-
-    .contadoras-img {
-        display: none;
-    }
-    
-    .team {
-        align-items: center;
-    }
-
-    .team h4 {
-
-        padding-top: 20px;
-        text-align: center;
-        font-size: 2rem;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
-    }
-
-    .team p {
-        padding-top: 20px;
-        text-align: center;
-        font-size: 1rem;
-        font-weight: 900;
-
-    }
-    .contadoras {
-
-        height: 400px;
-
-    }
 
     .about-title h1 {
         padding-top: 5px;  
@@ -1493,17 +1492,9 @@
         font-size: 1.5rem;
     }
 
-    .contadoras-txt p {
-        margin-top: 1px;
-        font-size: 0.9rem;
-    }
-
+    
     .services-title h2 {
         font-size: 1rem;
-    }
-
-    .services-container {
-        margin-top: 350px;
     }
 
     
@@ -1523,9 +1514,12 @@
         font-weight: 900;
     }
 
-    .professional-container {
-        padding-top: 100px;
+    .contadoras-img img {
+        width: 70%;
+        max-height: 400px;
     }
+
+
 
 }
 
